@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>searchTiWen</class>
+ <widget class="QWidget" name="searchTiWen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>891</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>891</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;员工考勤管理&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>891</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QCheckBox" name="checkBox">
+      <property name="text">
+       <string>查看当日</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QDateEdit" name="dateEdit">
+      <property name="dateTime">
+       <datetime>
+        <hour>0</hour>
+        <minute>0</minute>
+        <second>0</second>
+        <year>2021</year>
+        <month>12</month>
+        <day>16</day>
+       </datetime>
+      </property>
+      <property name="currentSection">
+       <enum>QDateTimeEdit::DaySection</enum>
+      </property>
+      <property name="displayFormat">
+       <string>yyyy/MM/dd</string>
+      </property>
+      <property name="calendarPopup">
+       <bool>true</bool>
+      </property>
+      <property name="currentSectionIndex">
+       <number>2</number>
+      </property>
+      <property name="date">
+       <date>
+        <year>2021</year>
+        <month>12</month>
+        <day>16</day>
+       </date>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="select_param_edit">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="placeholderText">
+       <string>工号或姓名查询</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="refer_pushButton">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>查询信息</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="clear_pushButton">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>清空</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>550</y>
+     <width>891</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="add_pushButton">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>上交信息</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item>
+     <widget class="QPushButton" name="change_pushButton">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>修改信息</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="information_tableWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>140</y>
+     <width>891</width>
+     <height>401</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

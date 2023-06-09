@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>stuGuanLi</class>
+ <widget class="QWidget" name="stuGuanLi">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>949</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>891</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;员工账户管理&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>80</y>
+     <width>921</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout_5">
+    <item>
+     <widget class="QLineEdit" name="select_param_edit_3">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入用户名或员工姓名（支持模糊查询）</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="refer_pushButton_3">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>查询信息</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="reMiMa_pushButton">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>重置密码</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="clear_pushButton_3">
+      <property name="font">
+       <font>
+        <family>AcadEref</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>清空</string>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
+      </property>
+      <property name="autoRepeatDelay">
+       <number>300</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="information_tableWidget">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>150</y>
+     <width>931</width>
+     <height>441</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>374</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>提示：用户名为工号</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

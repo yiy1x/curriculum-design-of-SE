@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/myImages">
+        <file>images/shanda.jpg</file>
+        <file>images/background_shanda.jpg</file>
+        <file>images/background_shanda (2).png</file>
+        <file>images/background_shanda (3).jpg</file>
+        <file>images/background_shanda (4).jpg</file>
+        <file>images/skyAndCloud.png</file>
+        <file>images/shanda2.png</file>
+        <file>images/xuhua.jpg</file>
+        <file>images/tubiao.png</file>
+        <file>images/background1.webp</file>
+        <file>images/background2.webp</file>
+        <file>images/tubiao2.png</file>
+        <file>images/tubiao3.png</file>
+        <file>images/background3.jpg</file>
+    </qresource>
+</RCC>

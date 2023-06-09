@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>baoxiu_1</class>
+ <widget class="QDialog" name="baoxiu_1">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>381</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="4" column="0">
+         <widget class="QLabel" name="college_label">
+          <property name="text">
+           <string>备注</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QLineEdit" name="building_lineEdit"/>
+        </item>
+        <item row="3" column="0">
+         <widget class="QLabel" name="numberchange_label">
+          <property name="text">
+           <string>事项描述</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0">
+         <widget class="QLabel" name="label">
+          <property name="text">
+           <string>所在房间号</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QLabel" name="name_abel">
+          <property name="text">
+           <string>所在宿舍楼</string>
+          </property>
+         </widget>
+        </item>
+        <item row="3" column="1">
+         <widget class="QLineEdit" name="content_lineEdit"/>
+        </item>
+        <item row="0" column="1">
+         <widget class="QLineEdit" name="date_lineEdit"/>
+        </item>
+        <item row="4" column="1">
+         <widget class="QLineEdit" name="beizhu_lineEdit"/>
+        </item>
+        <item row="2" column="1">
+         <widget class="QLineEdit" name="room_lineEdit"/>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="number_label">
+          <property name="text">
+           <string>申请日期</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="0">
+         <widget class="QLabel" name="age_label">
+          <property name="text">
+           <string>处理日期选择</string>
+          </property>
+         </widget>
+        </item>
+        <item row="5" column="1">
+         <widget class="QDateEdit" name="dateEdit">
+          <property name="font">
+           <font>
+            <family>AcadEref</family>
+            <pointsize>16</pointsize>
+            <weight>75</weight>
+            <bold>true</bold>
+           </font>
+          </property>
+          <property name="currentSection">
+           <enum>QDateTimeEdit::DaySection</enum>
+          </property>
+          <property name="displayFormat">
+           <string>yyyy/MM/dd</string>
+          </property>
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+          <property name="currentSectionIndex">
+           <number>2</number>
+          </property>
+          <property name="date">
+           <date>
+            <year>2021</year>
+            <month>12</month>
+            <day>6</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QPushButton" name="update_pushButton">
+        <property name="text">
+         <string>修改</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
